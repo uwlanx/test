@@ -1,0 +1,43 @@
+@media(min-width:760px){
+    .container{
+        display: flex;
+        /*
+        align-items: flex-start, flex-end, center;
+        flex-direction: column;
+        */
+        
+    
+}
+body{
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container div, .container2 div{
+    /*border: 1px black solid;*/
+    padding: 10px;
+    
+    
+}
+.box-1{
+    flex: 3;
+    order: 2;
+}
+.box-2{
+    flex: 1;
+    order: 1;
+}
+.box-3{
+    flex: 1;
+    order: 3;
+}
+.container2-box{
+    /*width*/ flex-basis: 30%;
+}
